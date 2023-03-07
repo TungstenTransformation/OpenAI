@@ -1,6 +1,7 @@
 # OpenAI & ChatGPT Integration for Kofax Transformation
-samples of using OpenAI and ChatGPT in Kofax Transformation.
+How to integration OpenAI and ChatGPT into Kofax Transformation for use in Kofax TotalAgility, Kofax RPA and Kofax Capture.  
 
+Note that OpenAI is a cloud-server based in USA, and the data may be used by them to train future models.
 
 ## Register at OpenAI.com
 
