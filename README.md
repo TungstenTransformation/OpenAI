@@ -14,7 +14,7 @@ samples of using OpenAI and ChatGPT in Kofax Transformation.
 * Add a variable OpenAI-key.
 * Add script locator, starting with "OpenAI_".
 * Add the key value pairs that you expect
-* Add the script to the document class. The script uses the OpenAI [REST API](https://platform.openai.com/docs/api-reference/introduction).
+* Add the [script](OpenAI.vb) to the document class. The script uses the OpenAI [REST API](https://platform.openai.com/docs/api-reference/introduction).
 * Press Test on the Locator.
 
 Let me know any useful examples you find.
