@@ -1,17 +1,23 @@
-# OpenAI
-samples of using OpenAI and ChatGPT in Kofax Transformation Locators
+# OpenAI & ChatGPT Integration for Kofax Transformation
+samples of using OpenAI and ChatGPT in Kofax Transformation.
 
 
 ## Register at OpenAI.com
 
 ## Generate an API key
+* Open https://platform.openai.com/account/api-keys
+* Click **+ Create new secret key**.
+* Copy the secret key to paste into Kofax Transformation.
 
 ## Configure Kofax Transformation
 
 * Add a variable OpenAI-key.
 * Add script locator, starting with "OpenAI_".
 * Add the key value pairs that you expect
-* Add the following script.
+* Add the script to the document class. The script uses the OpenAI [REST API](https://platform.openai.com/docs/api-reference/introduction).
+* Press Test on the Locator.
+
+Let me know any useful examples you find.
 
 ## Examples
 ```
@@ -55,4 +61,15 @@ A table summarizing transfers: Please transfer forty five yen to Sonya and 85,45
 |-----------|--------|----------|--------------|
 | Sonya     | 45     | Yen      | N/A          |
 | Tom       | 85,456.34 | Euro    | 6546084      |
+```
+```
+extract the complaints and compliments from this review "I found bugs in the bed, the window was leaking and the heater didn't work, but i really enjoyed the view"
+
+Complaints: 
+- Found bugs in the bed
+- Window was leaking
+- Heater didn't work
+
+Compliment: 
+- Enjoyed the view
 ```
