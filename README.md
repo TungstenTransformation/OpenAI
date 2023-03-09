@@ -44,7 +44,7 @@ Look at the bottom of this page for sample texts and responses.
 * Copy the secret key to paste into Kofax Transformation.
 
 ## Configure Kofax Transformation
-* Download the [OpenAI] project from GitHub.  
+* Download the [OpenAI](https://github.com/KofaxTransformation/OpenAI/tree/main/fpr) project from GitHub.  
 * Open **Menu Project/Configuration/ScriptVariables** and paste your key into script variable **OpenAI Key**.
 ![image](https://user-images.githubusercontent.com/103566874/223722190-2225522f-e6fe-42db-8f74-035e6170ef79.png)
 * Add script locator called **SL_InputText**. *This script locator just reads in the text of the sample document*.
@@ -60,7 +60,7 @@ Look at the bottom of this page for sample texts and responses.
     * Microsoft VBSCript Regular Expressions 5.5  
     ![image](https://user-images.githubusercontent.com/103566874/224080390-e928a33f-dcb5-468b-a1cd-96928bbbf465.png)
  
-* Press Classify & Extract (F7) on the sample document.
+* Press Classify & Extract (F7) on the [sample document](fpr/test/01.xdc).
 * View results in **Extraction Results** Window.  
 ![image](https://user-images.githubusercontent.com/103566874/224080851-7446be1d-8866-4ce7-8b25-9a3b6674ea8b.png)
 
