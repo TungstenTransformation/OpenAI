@@ -3,7 +3,8 @@ How to integration [OpenAI](https://openai.com/)'s [GPT-3](https://openai.com/bl
 
 This demo inputs this sample text to GPT-3's "most capable" model **text-davinci-003**.
 ```
-    A table summarizing transfers: Please transfer forty five yen to Sonya and 85,456.34€ to Tom's bank account 6546084
+    A table summarizing transfers: Please transfer forty five yen to 
+    Sonya and 85,456.34€ to Tom's bank account 6546084
 ```  
  which returns  
 ```
